@@ -1,0 +1,28 @@
+body {
+    display: flex;
+    flex-flow: wrap;
+    margin: 0;
+    justify-content: center;
+}
+
+div {
+    display: flex;
+}
+
+.top {
+    /* display: flex; */
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: greenyellow;
+    justify-content: center;
+    flex-flow: column;
+
+}
+
+.center {
+    background-color: black;
+    flex-wrap: wrap;
+}
+
+.bottom {
+    background-color: darkgray;
+}
